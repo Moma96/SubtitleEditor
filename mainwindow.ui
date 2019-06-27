@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>802</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="bStart">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lPath">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter full path to the file:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oSubtitle">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>200</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lSubtitle_1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>180</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Subtitle:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oAppearance">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>200</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oRemoval">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>260</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lAppearance">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>180</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lRemoval">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>240</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>End:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bNext">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>250</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NEXT</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iPath">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>241</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C:\Users\Moma\Desktop\POOP\I DOMACI\Primer.sub</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bLast">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>200</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LAST</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bFirst">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FIRST</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bPrevious">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PREVIOUS</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iH">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>320</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iM">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>320</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iS">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>320</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iMS">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>320</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bFind">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>350</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FIND</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lH">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>300</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lM">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>300</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lS">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>300</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lMS">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>300</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MS</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>400</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>320</y>
+      <width>20</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iFps">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>100</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lFps">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>80</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>fps:</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>601</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bDeleteSent">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>580</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DELETE SENTENCE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bAppend">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>550</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>APPEND SENTENCE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bMerge">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>350</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MERGE ALL TOO SMALL</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>310</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bSeparate">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>350</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SEPARATE ALL TOO BIG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bReplace">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>520</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REPLACE SUBTITLE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lSubtitle_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>460</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Subtitle:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iMergeChars">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>420</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iMergeMS">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>420</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>200</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lMergeMS">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>400</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Too few ms:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lSeparateChars">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>400</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Too many chars:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lMergeChars">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>400</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Too few chars:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iSeparateChars">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>420</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>70</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bTransfer">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>630</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TRANSFER SUBTITLES</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lS_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>440</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lM_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>440</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iM_1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>460</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lH_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>440</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lMS_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>440</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MS</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iH_1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>460</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iMS_1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>460</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iS_1">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>460</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lS_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>490</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lM_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>490</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iM_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>510</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lH_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>490</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lMS_3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>490</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MS</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iH_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>510</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iMS_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>510</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iS_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>510</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lShiftFrom">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>From:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lShiftTo">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>To:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iTSms">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>720</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>500</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lTSms">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>700</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Transfer/Scale ms:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bScaleB">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>630</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SCALE BETWEEN</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cExtrapolation">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>550</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Extrapolation</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bScaleMS">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>700</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SCALE IN MS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="iNote">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>570</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>If not checked, overlap is resolved by adding (if needed)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bSave">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>680</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SAVE</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>660</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>730</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>670</y>
+      <width>20</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>670</y>
+      <width>20</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>630</y>
+      <width>341</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oEnd">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>50</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oStart">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>50</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lStart">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lEnd">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>End:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lDuration">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>90</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Duration:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lSUB">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>s u b t i t l e</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lDOC">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>0</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>d o c u m e n t</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lSUB_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>t i m e   e d i t i n g</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lSUB_3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>300</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>s u b t i t l e   e d i t i n g</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lFormat">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>90</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Format:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oFormat">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>110</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>20</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oDuration">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>110</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lQuantity">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>80</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quantity:</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="oQuantity">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>110</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lOccurence">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>580</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete Occurence:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iOccurence">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>580</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iSubtitle">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>480</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bAddSub">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>460</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADD SUBTITLE</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_10">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>640</y>
+      <width>20</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bDeleteSub">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>490</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DELETE SUBTITLE(S)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lNote_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>590</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>enough space for translating the rest of the subtitles.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>690</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
